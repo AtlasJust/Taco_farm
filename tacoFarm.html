@@ -1,0 +1,50 @@
+<!--Taco Farm Practice Project-->
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Taco Farm</title>
+    <style>
+        body{
+            background-color: rgb(7, 150, 5);
+        }
+        h1{
+            text-align: center;
+            font-size: 4em;
+            color: white;
+            text-shadow: red 2px 2px 4px;
+            font-family: "Arial Black", sans-serif;
+        }
+        h3{
+            text-align: center;
+        }
+        div#button{
+            background-color: white;
+            width: 200px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 2em;
+            color: red;
+            border-radius: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            cursor: pointer;
+            box-shadow: 2px 4px 3px;
+        }
+        img{
+            height: 120px;
+            width: 120px;
+        }
+    </style>
+    <script src="tacoScript.js" defer></script>
+</head>
+<body>
+    <h1>Click Below to add a Taco!</h1>
+    <h3>You have this many tacos: <span id="tacoCount"></span></h3>
+    <div id="button">Taco!</div>
+    <br>
+    <div id="tacoFarm"></div>
+</body>
+</html>
